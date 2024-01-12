@@ -39,7 +39,11 @@ public class App {
     }
     public static void main(String[] args) throws Exception {
 
-        primeSieve(120000000);
+        primeSieve(120000000); 
+
+        // Time Complexity : O( N*log(log(N)) )
+
+        // Space Complexity : O ( N*log(log(N)) ) 
 
 
     }
